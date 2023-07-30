@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as 
 from. telebot import *
 @bot.message_handler(commands=["start"])
 def start(message):
-                ch = "ZZZ68Z"
+                ch = "Q1IIQ"
                 idu = message.chat.id
                 join = requests.get(f"https://api.telegram.org/bot{token}/getChatMember?chat_id=@{ch}&user_id={idu}").text
                 if '"status":"left"' in join:
