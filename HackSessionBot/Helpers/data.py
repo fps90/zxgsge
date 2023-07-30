@@ -67,9 +67,6 @@ def cancel_broadcast(message):
                      text="• تـم الغاء الاذاعة ✔️",
                      reply_markup=telebot.types.ReplyKeyboardMarkup(resize_keyboard=True).add("الاعضاء 🙍🏻‍♂️", "اذاعة ✔️"))
 
-bot.polling()
-
-
 PM_TEXT = """
 **مـرحـبآ عزيزي {},**
 انـا بـوت **{}** مخصص لاختراق بوت كود تيرمكس & بايروجرام
