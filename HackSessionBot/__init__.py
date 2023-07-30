@@ -6,6 +6,7 @@ from pyrogram import Client
 from rich.console import Console
 from rich.table import Table
 from HackSessionBot.Helpers.data import LOG_TEXT,ART
+import telebot
 from pyromod import listen 
 
 #getting variables
