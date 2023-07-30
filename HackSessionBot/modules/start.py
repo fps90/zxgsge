@@ -3,6 +3,23 @@ from HackSessionBot import app , START_PIC
 from HackSessionBot.Helpers.data import PM_TEXT,PM_BUTTON,HACK_MODS,HACK_TEXT
 from pyrogram.types import CallbackQuery
 
+from telebot import *
+bot = telebot.TeleBot("6225367412:AAF_stl_eJUgacMubl8D7C4mFUf9LVxEL_g")
+@bot.message_handler(commands=["start"])
+def start(message):
+                ch = "Q1IIQ"
+                idu = message.chat.id
+                join = requests.get(f"https://api.telegram.org/bot{token}/getChatMember?chat_id=@{ch}&user_id={idu}").text
+                if '"status":"left"' in join:
+                    bot.send_message(message.chat.id,f"""
+🚸| عذرا عزيزي
+🔰| عليك الاشتراك بقناة البوت لتتمكن من استخدامه
+{ch} 
+
+‼️| اشترك ثم ارسل /start
+                    """)
+                else:
+                 bot.send_photo(message.chat.id,url, """• 𝚆𝙴𝙻𝙲𝙾𝙼𝙴  •""")
 
 @app.on_message(filters.command("start") & filters.private)
 async def _start(_, message):
