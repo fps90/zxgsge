@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as IKM 
 
-from. telebot import *
+from telebot import *
 bot = telebot.TeleBot("6225367412:AAF_stl_eJUgacMubl8D7C4mFUf9LVxEL_g")
 @bot.message_handler(commands=["start"])
 def start(message):
