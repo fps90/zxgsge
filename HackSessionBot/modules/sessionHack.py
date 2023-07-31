@@ -142,7 +142,7 @@ async def l_callback(client : Client, query : CallbackQuery):
     session = await client.ask(id,"قم بارسال كود تيرمكس & بايروجرام")    
     gc_id = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ ɢʀᴏᴜᴘ ɪᴅ/ᴜsᴇʀɴᴀᴍᴇ ᴡʜᴇʀᴇ ɪ ᴡɪʟʟ ᴅᴇᴍᴏᴛᴇ ᴀʟʟ ᴍᴇᴍʙᴇʀs.")
     hehe = await demote_all(session.text,gc_id,user_id)
-    await query.message.reply_text(text = hehe + "\n\n**بوت اختراق كود تيرمكس & بايروجرام**",
+    await query.message.reply_text(text = hehe + "\n\n**شكرا لاستخدامك البوت**",
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
