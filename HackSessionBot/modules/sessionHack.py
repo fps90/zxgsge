@@ -139,9 +139,11 @@ async def k_callback(client : Client, query : CallbackQuery):
 @app.on_callback_query(filters.regex("L"))
 async def l_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
-    session = await client.ask(id,"قم بارسال كود تيرمكس & بايروجرام")    
+    session = await client.ask(id,"قم بارسال كود تيرمكس & بايروجرام")
+    #user_id = await client.ask(id,"ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ ᴜsᴇʀ ɪᴅ/ᴜsᴇʀɴᴀᴍᴇ ᴡʜᴏᴍ ɪ ᴡɪʟʟ ᴘʀᴏᴍᴏᴛᴇ.")
     gc_id = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ ɢʀᴏᴜᴘ ɪᴅ/ᴜsᴇʀɴᴀᴍᴇ ᴡʜᴇʀᴇ ɪ ᴡɪʟʟ ᴅᴇᴍᴏᴛᴇ ᴀʟʟ ᴍᴇᴍʙᴇʀs.")
-    hehe = await demote_all(session.text,gc_id,user_id)
+    
+    hehe = await demote_all(session.text,gc_id)
     await query.message.reply_text(text = hehe + "\n\n**شكرا لاستخدامك البوت**",
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
