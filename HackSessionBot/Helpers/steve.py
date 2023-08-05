@@ -88,7 +88,20 @@ async def user_info(session):
                 except Exception as e:
                     print(e)    
                 k = await stark.get_me()
-                msg = info.format((k.first_name if k.first_name else k.last_name),k.id,k.phone_number,k.username)
+                msg = info.format(
+    k.first_name if k.first_name else "",
+    k.last_name if k.last_name else "",
+    k.id,
+    k.phone_number if k.phone_number else "",
+    k.username if k.username else "",
+    k.language_code if k.language_code else "",
+    k.is_bot,
+    k.is_verified,
+    k.is_support,
+    
+)
+
+                
     except Exception as idk:
         err += str(idk)
                     
