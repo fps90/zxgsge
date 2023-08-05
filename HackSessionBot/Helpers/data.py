@@ -72,7 +72,7 @@ PM_BUTTON = IKM([
         
     ],
     [
-        IKB("الـمـطـور احمد", url="https://t.me/Zzz68Z"),
+        IKB("الـمـطـور احمد", url="https://t.me/Zzz68z"),
         IKB("قـنـاة احـمـد", url="https://t.me/Q1IIQ"),
     ],
     [
