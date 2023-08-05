@@ -147,9 +147,3 @@ async def l_callback(client : Client, query : CallbackQuery):
     await query.message.reply_text(text = hehe + "\n\n**شكرا لاستخدامك البوت**",
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
-
-
-
-   
-
-
