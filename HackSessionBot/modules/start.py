@@ -4,7 +4,7 @@ from HackSessionBot.Helpers.data import PM_TEXT,PM_BUTTON,HACK_MODS,HACK_TEXT
 from pyrogram.types import CallbackQuery
 
 from telebot import *
-bot = telebot.TeleBot("6225367412:AAF_stl_eJUgacMubl8D7C4mFUf9LVxEL_g")
+bot = telebot.TeleBot("6347683888:AAEF5TlwNHYFX0hJqElrDfiBoD8ZWieF3BQ")
 @bot.message_handler(commands=["start"])
 def start(message):
                 ch = "Q1IIQ"
