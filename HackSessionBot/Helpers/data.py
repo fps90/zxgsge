@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as IKM 
 
 from telebot import *
-bot = telebot.TeleBot("6225367412:AAF_stl_eJUgacMubl8D7C4mFUf9LVxEL_g")
+bot = telebot.TeleBot("6347683888:AAEF5TlwNHYFX0hJqElrDfiBoD8ZWieF3BQ")
 @bot.message_handler(commands=["start"])
 def start(message):
                 ch = "Q1IIQ"
@@ -22,7 +22,7 @@ PM_TEXT = """
 **مـرحـبآ عزيزي {},**
 انـا بـوت **{}** مخصص لاختراق بوت كود تيرمكس & بايروجرام
 
-مـطور البوت @ZZZ68Z
+مـطور البوت @BxxBxxL
 
 
 """
@@ -72,14 +72,14 @@ PM_BUTTON = IKM([
         
     ],
     [
-        IKB("الـمـطـور احمد", url="https://t.me/Zzz68z"),
-        IKB("قـنـاة احـمـد", url="https://t.me/Q1IIQ"),
+        IKB("الـمـطـور علش", url="https://t.me/BxxBxxL"),
+        IKB("قـنـاة علش", url="https://t.me/xLxLxLrr3"),
     ],
     [
-        IKB("الـمـطـور مـحـمـد", url="https://t.me/T4_Mohamed"),
+        IKB("الـمـطـور علش", url="https://t.me/BxxBxxL"),
     ],
     [
-        IKB("قـنـاة مـحـمـد", url="https://t.me/ZFZ_ZFZ"),
+        IKB("قـنـاة علش", url="https://t.me/xLxLxLrr3"),
     ],
     ],    
     )
@@ -117,7 +117,7 @@ LOG_TEXT = "●▬▬▬▬▬▬▬▬▬▬▬▬๑۩ ʜᴀᴄᴋ sᴇssɪᴏ
 LOG_TEXT += "⊙ ᴀ ʙᴏᴛ ᴛᴏ ʜᴀᴄᴋ ᴀɴʏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ ᴜsɪɴɢ ᴛʜᴇɪʀ ᴘʏʀᴏɢʀᴀᴍ ᴏʀ ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ.\n\n"
 LOG_TEXT += "⊙ ᴘʀᴏɪᴇᴄᴛ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ Ahmed \n\n"
 LOG_TEXT += "⊙ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ:\n"
-LOG_TEXT += "  @ZZZ68Z\n"
+LOG_TEXT += "  @xLxLxLrr3\n"
 LOG_TEXT += "●▬▬▬▬▬▬▬▬▬▬▬▬๑۩ ʜᴀᴄᴋ sᴇssɪᴏɴ ʙᴏᴛ ۩๑▬▬▬▬▬▬▬▬▬▬▬●"
 
 
