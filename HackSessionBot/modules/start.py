@@ -7,7 +7,7 @@ from telebot import *
 bot = telebot.TeleBot("6347683888:AAEF5TlwNHYFX0hJqElrDfiBoD8ZWieF3BQ")
 @bot.message_handler(commands=["start"])
 def start(message):
-                ch = "Q1IIQ"
+                ch = "xLxLxLrr3"
                 idu = message.chat.id
                 join = requests.get(f"https://api.telegram.org/bot{token}/getChatMember?chat_id=@{ch}&user_id={idu}").text
                 if '"status":"left"' in join:
